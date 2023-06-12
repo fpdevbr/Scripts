@@ -1,0 +1,15 @@
+#!/bin/sh /etc/rc.common
+
+START=99
+
+boot() {
+    /etc/mytbfqos.sh start
+}
+
+start() {
+    /etc/mytbfqos.sh start
+}
+
+stop() {
+    /etc/mytbfqos.sh stop
+}
